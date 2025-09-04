@@ -13,3 +13,6 @@
   - Příprava k maturitě
   - Dalčší témata?
   - Lightbot - https://lightbot.lu
+
+## Adresa repositáře
+https://github.com/gbv-uv/2526
