@@ -1,9 +1,9 @@
 # Osnova
 
-- Vyučujicí: Václav Uher
-- Seznámení se studnety
-- Provozní řád učebny [pdf](./soubory/Provozní%20řád%20MM%20učeben.pdf)
-- Bezpečnost, požární ochrana, první pomoc a věci kolem
+- Vyučující: Václav Uher
+- Seznámení se studenty
+- ~~Provozní řád učebny [pdf](./soubory/Provozní%20řád%20MM%20učeben.pdf)~~
+- ~~Bezpečnost, požární ochrana, první pomoc a věci kolem~~
 - Plán výuky
   - Python
   - Základy - datové typy, cykly, podmínky...
@@ -11,7 +11,7 @@
   - Git?
   - Využití LLM při programování?
   - Příprava k maturitě
-  - Dalčší témata?
+  - Další témata?
   - Lightbot - https://lightbot.lu
 
 ## Adresa repositáře
