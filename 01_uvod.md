@@ -3,7 +3,7 @@
 - Vyučujicí: Václav Uher
 - Seznámení se studnety
 - Provozní řád učebny [pdf](./soubory/Provozní%20řád%20MM%20učeben.pdf)
-- Bezpečnost, požární ochrana, první pomocc a věci kolem
+- Bezpečnost, požární ochrana, první pomoc a věci kolem
 - Plán výuky
   - Python
   - Základy - datové typy, cykly, podmínky...
