@@ -62,3 +62,7 @@ print(f'Vytištění proměnné na dvě desetinná místa: {cislo:.2f}')
 
 - Vytvořte program, který po zadání čísla vrátí hodnotu zbývající do nejbližšího vyššího násobku 20. 1 => 19, 26 => 14, 103 => 17, atd.
 - Napište program, který vyzve uživatele k zadání poloos elipsy a vypočítá její obsah. (Pro pokročilé i obvod).
+
+## Procvičování
+
+https://www.codewars.com/
