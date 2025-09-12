@@ -1,8 +1,8 @@
 # Datové typy, vstupy, výstupy
 
-## Výstup
+## IDE
 
-`print('Hello world')`
+Seznámení s vývojovým prostředím Microsoft Visual Studio Code
 
 ## Práce v interaktivním módu
 
@@ -10,9 +10,15 @@ Spuštění pomocí příkazu `python` v terminálu.
 
 Opuštění pomocí klávesové zkratky `ctrl + d`.
 
+## Výstup
+
+`print('Hello world')`
+
 ## Numerické datové typy
 
 `int`, `float`, `complex`
+
+Zjištění typu pomocí `type()`
 
 ## Operátory
 
