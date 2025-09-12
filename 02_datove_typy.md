@@ -2,7 +2,7 @@
 
 ## IDE
 
-Seznámení s vývojovým prostředím Microsoft Visual Studio Code
+Seznámení s vývojovým prostředím Microsoft Visual Studio Code.
 
 ## Práce v interaktivním módu
 
@@ -34,7 +34,7 @@ Zjištění typu pomocí `type()`
 ## Načítání vstupu
 
 ```python
-x = input('Zadejte slovo')
+x = input('Zadejte slovo: ')
 print(x)
 ```
 
