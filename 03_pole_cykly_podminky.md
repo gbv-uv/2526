@@ -2,7 +2,7 @@
 
 ## Seznam
 
-Datový typ list v Pythonu lze pomocí složených závorek.
+Datový typ list v Pythonu lze pomocí složených závorek (popřípadě pomocí `list()`).
 
 Prázdný seznam:
 
@@ -78,3 +78,9 @@ while i < len(dopravni_prostredky):
     break
   i += 1
 ```
+
+## Úkoly
+
+- Napište program, který sečte pouze pozitivní čísla v poli. [1, -2, 3, -4] → 4
+- Napište program, který po zadání letopočtu vypíše století: 1705 → 18, 1900 → 19, 2000 → 20, 2024 → 21
+
