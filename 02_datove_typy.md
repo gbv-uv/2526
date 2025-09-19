@@ -63,6 +63,21 @@ print(f'Vytištění proměnné na dvě desetinná místa: {cislo:.2f}')
 - Vytvořte program, který po zadání čísla vrátí hodnotu zbývající do nejbližšího vyššího násobku 20. 1 => 19, 26 => 14, 103 => 17, atd.
 - Napište program, který vyzve uživatele k zadání poloos elipsy a vypočítá její obsah. (Pro pokročilé i obvod).
 
+## Řešení
+
+```python
+x = int(input('Zadejte číslo: '))
+result = 20 - (x % 20)
+print(f'Do nejblližšího násobku zbývá {result}')
+```
+
+```python
+a = float(input('Zadejte poloosu a: '))
+b = float(input('Zadejte poloosu b: '))
+result = 3.14159 * a * b
+print(f'Obsah elipsy je {result:.2f}')
+```
+
 ## Procvičování
 
 https://www.codewars.com/
