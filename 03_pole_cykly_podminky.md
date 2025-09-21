@@ -2,7 +2,7 @@
 
 ## Seznam
 
-Datový typ list v Pythonu lze pomocí složených závorek (popřípadě pomocí `list()`).
+Datový typ list v Pythonu lze pomocí hranatých závorek (popřípadě pomocí `list()`).
 
 Prázdný seznam:
 
