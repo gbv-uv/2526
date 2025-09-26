@@ -4,7 +4,7 @@ Vzhledem k velkému počtu chybějící stundetů je zařazena lekce zaměřená
 
 ## Příklady k procvičení
 
-1. Napište program, který po zadání čísla napíše jeho zápornou verzi:
+1. Napište program, který po zadání čísla napíše jeho zápornou verzi.
 1. Napište program, která vytiskne prostření třetinu ze zadaného řetězce.
 1. Napište program, který po zadání čísla napíše, jestli je sudé nebo liché.
 1. Napište program, který po zadání počtu minut vypíše počet dnů, hodin a minut:
