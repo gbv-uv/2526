@@ -81,6 +81,28 @@ while i < len(dopravni_prostredky):
 
 ## Úkoly
 
-- Napište program, který sečte pouze pozitivní čísla v poli. [1, -2, 3, -4] → 4
-- Napište program, který po zadání letopočtu vypíše století: 1705 → 18, 1900 → 19, 2000 → 20, 2024 → 21
+1. Napište program, který sečte pouze pozitivní čísla v poli. [1, -2, 3, -4] → 4
+1. Napište program, který po zadání letopočtu vypíše století: 1705 → 18, 1900 → 19, 2000 → 20, 2024 → 21
+
+## Řešení
+
+```python
+pole = [1, -2, 3, -4, 5, -6, 7]
+
+sum = 0
+for cislo in pole:
+    if cislo > 0:
+        sum += cislo
+
+print(sum)
+```
+
+```python
+vstup = input('Zadejte rok: ')
+rok = int(vstup)
+stoleti = rok // 100
+if rok % 100 > 0:
+    stoleti += 1
+print(f'Století je {stoleti}.')
+```
 
