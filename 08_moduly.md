@@ -31,3 +31,48 @@ from math import pi, pow
 
 obsah_kruhu = pi * pow(3, 2)
 ```
+
+## Úkoly
+
+1. Napište program, který po zadání úhlu slunce nad obzorem a délky stínu vypočítá výšku objektu.
+1. Napište program, který do konzole vytiskne sinusovku od shora dolů. Pro generování daného počtu mezer můžete využít násobení `mezery = ' ' * 5`.
+
+
+```text
+                    #
+                       #
+                           #
+                              #
+                                 #
+                                   #
+                                     #
+                                       #
+                                        #
+                                        #
+                                        #
+                                       #
+                                     #
+                                   #
+                                 #
+                              #
+                           #
+                       #
+                    #
+                 #
+             #
+          #
+       #
+     #
+   #
+ #
+#
+#
+#
+ #
+   #
+     #
+       #
+          #
+             #
+                 #
+```
