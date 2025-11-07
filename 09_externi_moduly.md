@@ -13,7 +13,7 @@ Který je následně připraven k použití:
 ```
 import emoji
 
-message = emoji.emojize("Hello, Geek! :earth_americas:")
+message = emoji.emojize("Hello, Geek! :earth_americas:  :thumbs_up:", language='alias')
 print(message)
 ```
 
