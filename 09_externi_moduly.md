@@ -1,8 +1,8 @@
-# Externí moduly
+# Externí moduly a balíčky
 
-## Instalace externích modulů
+## Instalace externích balíčků (package)
 
-Externí moduly se instalují pomocí nástroje `pip`. Následující příkaz nainstaluje balíček `emoji`:
+Externí balíčky se instalují pomocí nástroje `pip`. Následující příkaz nainstaluje balíček `emoji`:
 
 ```
 pip install emoji
@@ -17,9 +17,24 @@ message = emoji.emojize("Hello, Geek! :earth_americas:")
 print(message)
 ```
 
+Pro zobrazení podrobností o balíčku lze použít příkaz:
+
+```
+pip show emoji
+```
+
+Příkaz mimo jiné ukáže i cestu, kam se balíček nainstaloval.
+
+Cesta k aktuálnímu Python interpeteru můžeme zobrazit pomocí scriptu:
+
+``` python
+import os, sys
+os.path.dirname(sys.executable)
+```
+
 [Seznam dostupných emoji](https://www.webfx.com/tools/emoji-cheat-sheet/).
 
-Pokud projekt používá více modulů, je vhodné je zapsat do seznamu `requirements.txt` i s použitou verzí kvůli kompatibiltě:
+Pokud projekt používá více balíčků, je vhodné je zapsat do seznamu `requirements.txt` i s použitou verzí kvůli kompatibiltě:
 
 ```
 BeautifulSoup==3.2.0
@@ -34,7 +49,7 @@ amqplib==0.6.1
 anyjson==0.3
 ```
 
-Moduly pak lze nainstalovat jedním příkazem:
+Balíčky pak lze nainstalovat jedním příkazem:
 
 ```
 pip install -r requirements.txt
@@ -88,7 +103,7 @@ Jméno modulu je odvozeno od názvu souboru.
 ## Úkoly
 
 1. Vytvořete modul `calculator.py`, který bude obsahoval alespoň čtyři matematické funkce (například sčítání, odčítání...) a funkce z toho modulu použijte v souboru calc_usage.py
-1. Nainstalujte si modul Flask a zkuste si vytořit jednoduchý webový server. Příklad použití:
+1. Nainstalujte si balíček Flask a zkuste si vytořit jednoduchý webový server. Příklad použití:
 
 ```python
 from flask import Flask
