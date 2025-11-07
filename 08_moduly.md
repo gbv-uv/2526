@@ -76,3 +76,24 @@ obsah_kruhu = pi * pow(3, 2)
              #
                  #
 ```
+
+## Řešení
+
+```python
+import math
+
+stin = float(input("Zadejte délku stínu v metrech: "))
+uhel = float(input("Zadejte velikost úhlu ve stupních: "))
+
+vyska = stin * math.tan(math.radians(uhel))
+
+print(f'Výška objektu je {vyska:.2f} m.')
+```
+
+```python
+import math
+
+for st in range(0, 360, 10):
+    x = (math.sin(math.radians(st)) + 1) * 30
+    print(' ' * round(x), '#', sep='')
+```
