@@ -34,11 +34,12 @@ print(x)
 print(x.year)
 print(x.strftime("%A"))
 ```
+
 Více příkladů pro formátování času lze najít například [zde](https://www.geeksforgeeks.org/python/python-datetime-strptime-function/).
 
 Načítání času:
 
-```pyhton
+```python
 import datetime
 
 date = datetime.datetime.strptime('21. 11. 2025', "%d. %m. %Y")
@@ -46,7 +47,8 @@ print(date)
 ```
 
 Výpočet aktuálního věku:
-```pyhton
+
+```python
 import datetime
 
 date = datetime.datetime.strptime('20. 2. 1991', "%d. %m. %Y")
