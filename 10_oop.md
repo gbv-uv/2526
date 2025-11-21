@@ -59,3 +59,5 @@ print((now - date).days // 365)
 ## Úkoly
 
 - Navrhněte třídu pro automobily a použijte ji obdobně jako v příkladu s osobami.
+    - Automobil bude mít atributy objem nádrže, spotřebu l/100 km, aktuální stav nádrže.
+    - Metody pro tankování a ujetí x kilometrů.
