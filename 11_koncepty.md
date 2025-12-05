@@ -4,7 +4,7 @@
 
 Nová třída může zdědit atributy a metody z jiné (rodičovské) třídy.
 
-```pyhton
+```python
 from datetime import datetime
 
 class Osoba:
