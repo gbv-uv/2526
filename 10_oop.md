@@ -61,3 +61,49 @@ print((now - date).days // 365)
 - Navrhněte třídu pro automobily a použijte ji obdobně jako v příkladu s osobami.
     - Automobil bude mít atributy objem nádrže, spotřebu l/100 km, aktuální stav nádrže.
     - Metody pro tankování a ujetí x kilometrů.
+
+## Řešení
+
+```python
+class Automobil:
+    def __init__(self, objem_nadrze, spotreba, stav_nadrze):
+        self.objem_nadrze = objem_nadrze
+        self.spotreba = spotreba
+        self.stav_nadrze = stav_nadrze
+    
+    def tankovat(self, litry):        
+        nova_nadrz = self.stav_nadrze + litry
+        if nova_nadrz > self.objem_nadrze:
+            natankovano = self.objem_nadrze - self.stav_nadrze
+            self.stav_nadrze = self.objem_nadrze
+            print(f"Nádrž plná! Natankováno {natankovano:.1f} l")
+        else:
+            self.stav_nadrze = nova_nadrz
+            print(f"Natankováno {litry:.1f} l")
+    
+    def trasa(self,kilometry):
+        potreba = (kilometry / 100) * self.spotreba
+        if potreba > self.stav_nadrze:
+            max_km = (self.stav_nadrze / self.spotreba) * 100
+            print(f"Nedostatek paliva! Lze ujet pouze {max_km:.1f} km")
+            self.stav_nadrze = 0
+        else:
+            self.stav_nadrze -= potreba
+            print(f"Ujeto {kilometry} km, zbývá {self.stav_nadrze:.1f} l paliva")
+    
+    def __str__(self):
+        return f"Automobil (nádrž: {self.stav_nadrze:.1f}/{self.objem_nadrze} l, spotřeba: {self.spotreba} l/100km)"
+
+
+auto = Automobil(objem_nadrze=50, spotreba=6.2, stav_nadrze=40)
+print(auto)
+
+
+auto1.tankovat(40)
+print(auto)
+
+
+auto.trasa(100)
+auto.trasa(200)
+auto.trasa(1000)
+```
