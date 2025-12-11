@@ -3,15 +3,15 @@
 
 ## Abstrakce
 
-Abstrakce je princip objektově orientovaného programování, který umožňuje definovat obecnou šablonu (abstraktní třídu) s metodami bez konkrétní implementace, kterou musí doplnit podtřídy. Skrývá složité detaily implementace a definuje pouze základní rozhraní, které musí všechny potomci dodržet.
+Abstrakce umožňuje definovat obecnou šablonu (abstraktní třídu) s metodami bez konkrétní implementace, kterou musí doplnit podtřídy. Skrývá složité detaily implementace a definuje pouze základní rozhraní, které musí všechny potomci dodržet.
 
 ## Polymorfismus
 
-Polymorfismus je princip objektově orientovaného programování, který umožňuje různým třídám implementovat stejné metody různými způsoby, přičemž lze s nimi pracovat jednotně přes společné rozhraní. Díky tomu můžeme volat stejnou metodu na různých objektech a každý objekt se chová podle své vlastní implementace.
+Polymorfismus umožňuje různým třídám implementovat stejné metody různými způsoby, přičemž lze s nimi pracovat jednotně přes společné rozhraní. Díky tomu můžeme volat stejnou metodu na různých objektech a každý objekt se chová podle své vlastní implementace.
 
 ## Kompozice
 
-Kompozice je princip objektově orientovaného programování, kdy třída obsahuje instance jiných tříd jako své atributy (vztah "má", has-a), místo aby je dědila. Umožňuje vytvářet složité objekty skládáním menších, nezávislých komponent, což vede k flexibilnějšímu a znovupoužitelnějšímu kódu než dědění.
+Kompozice je koncept, kdy třída obsahuje instance jiných tříd jako své atributy (vztah "má"), místo aby je dědila. Umožňuje vytvářet složité objekty skládáním menších, nezávislých komponent, což vede k flexibilnějšímu a znovupoužitelnějšímu kódu než dědění.
 
 ```python
 from datetime import datetime
